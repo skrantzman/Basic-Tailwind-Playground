@@ -1,0 +1,25 @@
+{
+	"name": "Basic-Tailwind-Playground",
+	"version": "1.0.0",
+	"description": "Basic Tailwind Playground",
+	"main": "index.js",
+	"scripts": {
+		"build": "postcss css/tailwind.css -o public/build/style.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/skrantzman/Basic-Tailwind-Playground.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/skrantzman/Basic-Tailwind-Playground/issues"
+	},
+	"homepage": "https://github.com/skrantzman/Basic-Tailwind-Playground#readme",
+	"dependencies": {
+		"autoprefixer": "^9.8.6",
+		"postcss-cli": "^7.1.1",
+		"tailwindcss": "^1.6.2"
+	}
+}
