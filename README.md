@@ -1,6 +1,6 @@
 # Basic-Tailwind-Playground
 
-Basic Tailwind Playground
+Basic Tailwind Playground, that save a few minutes of having to configure package.json, postcss.config.js, and tailwind.config.js files.  Nothing special here.
 
 ## Installation
 
