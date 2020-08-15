@@ -28,7 +28,7 @@ Basic Tailwind Playground, that save a few minutes of having to configure packag
    npm install -g live-server
    ```
 
-5. If you have Live Server installed as a VS Code Extension, right click on index.html (in the public folder) and select "Open With Live Server". if you have Live Server installed globally in you dev environment, run the following command
+5. If you have Live Server installed as a VS Code Extension, right click on index.html (in the public folder) and select "Open With Live Server". if you have Live Server installed globally in yourS dev environment, run the following command
 
    ```
    live-server public
