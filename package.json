@@ -1,6 +1,6 @@
 {
 	"name": "Basic-Tailwind-Playground",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Basic Tailwind Playground",
 	"main": "index.js",
 	"scripts": {
@@ -20,6 +20,6 @@
 	"dependencies": {
 		"autoprefixer": "^9.8.6",
 		"postcss-cli": "^7.1.1",
-		"tailwindcss": "^1.6.2"
+		"tailwindcss": "^1.7.2"
 	}
 }
