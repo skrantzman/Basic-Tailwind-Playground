@@ -1,4 +1,6 @@
-![GitHub package.json version](https://img.shields.io/github/package-json/v/skrantzman/Basic-Tailwind-Playground?logo=github) &ensp;![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/skrantzman/Basic-Tailwind-Playground/tailwindcss?color=38B2AC&logo=tailwind-css)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/skrantzman/Basic-Tailwind-Playground?logo=github) &ensp;
+![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/skrantzman/Basic-Tailwind-Playground/tailwindcss?color=38B2AC&logo=tailwind-css) &ensp;
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/skrantzman/dnn_tailwind?logo=Snyk)
 
 # Basic-Tailwind-Playground
 
