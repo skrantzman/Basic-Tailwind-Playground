@@ -28,7 +28,13 @@ Basic Tailwind Playground, that saves a few minutes of having to configure packa
    npm install or npm i
    ```
 
-5. Run the following to create/update style.css if:
+5. Fix any vulnerabilities
+
+   ```
+   npm audit fix --force
+   ```
+
+6. Run the following to create/update style.css if:
       <ol type="a">
       <li> its not already created</li>
       <li> you want to purge unused tailwind classes from style.css</li>
@@ -40,7 +46,7 @@ Basic Tailwind Playground, that saves a few minutes of having to configure packa
    npm run build
    ```
 
-6. This starter comes with it's own live-server package. Running the command below sets up a local live-server instance at port `8080` while also watching for markup or style changes applied to any `.html` files in root, and changes made in the `assets/css` directory.
+7. This starter comes with it's own live-server package. Running the command below sets up a local live-server instance at port `8080` while also watching for markup or style changes applied to any `.html` files in root, and changes made in the `assets/css` directory.
 
    ```
    npm run serve
@@ -48,7 +54,9 @@ Basic Tailwind Playground, that saves a few minutes of having to configure packa
 
    If you have a preferred, or are using your own, local live server tool simply run your server and use `npm run watch` to just watch for changes in any `.html` file and changes made in the `assets/css` directory.
 
-7. Have fun playing around with TailwindCSS!
+8. Start editing the `index.html` inside the `public` directory, by adding content and tailwind classes. The page in your browser should update automatically every time you save your changes.
+
+9. Have fun playing around with TailwindCSS!
 
 ## VS Code Extras
 
