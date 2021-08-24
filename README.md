@@ -13,6 +13,7 @@ Basic Tailwind Playground, that saves a few minutes of having to configure packa
    ```
    git clone https://github.com/skrantzman/Basic-Tailwind-Playground.git
    ```
+
 2. Change directory to the newly cloned reposityry.
    ```
    cd Basic-Tailwind-Playground
@@ -24,39 +25,38 @@ Basic Tailwind Playground, that saves a few minutes of having to configure packa
 4. From VS Code Terminal run the following to install all dependencies.
 
    ```
-   npm install
+   npm install or npm i
    ```
 
-5. Run the following to create style.css if its not already created, or if updating to newer version of tailwindcss manually. You will also want to run this command every time you edit and save your tailwind.config.css file to rebuild your style.css file
+5. Run the following to create/update style.css if:
+      <ol type="a">
+      <li> its not already created</li>
+      <li> you want to purge unused tailwind classes from style.css</li>
+      <li> updating to newer version of tailwindcss manually</li>
+      </ol>
+      <br />
 
    ```
    npm run build
    ```
 
-6. If you don't have Live Server installed either install it as a VS Code extension or add it to your dev environment globally. If you already have it installed skip this step.
+6. This starter comes with it's own live-server package. Running the command below sets up a local live-server instance at port `8080` while also watching for markup or style changes applied to any `.html` files in root, and changes made in the `assets/css` directory.
 
    ```
-   npm install -g live-server
+   npm run serve
    ```
 
-7. If you have Live Server installed as a VS Code Extension, right click on index.html (in the public folder) and select "Open With Live Server". if you have Live Server installed globally in your dev environment, run the following command
+   If you have a preferred, or are using your own, local live server tool simply run your server and use `npm run watch` to just watch for changes in any `.html` file and changes made in the `assets/css` directory.
 
-   ```
-   live-server public
-   ```
-
-   This should open a browser window for ip address 127.0.0.1 on port 8080.
-
-8.  Have fun playing around with TailwindCSS!
+7. Have fun playing around with TailwindCSS!
 
 ## VS Code Extras
 
 There are two extension I recogmend for VS Code in order to greatly aid you in your TailwindCSS design:
 
 1. Tailwind CSS IntelliSense, by Brad Cornes `bradlc.vscode-tailwindcss`. It provides great amount of intelliSense for tailwind including color thumbnails when selecting colors.
-   
 2. Headwind by Tyan Heybourn `heybourn.headwind`. Headwind re-sorts your tailwind classes every time you save, keeping a structured order to the classes.
-` 
+   `
 
 ## Docs
 

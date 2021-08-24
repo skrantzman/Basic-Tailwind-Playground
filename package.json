@@ -1,25 +1,33 @@
 {
-	"name": "Basic-Tailwind-Playground",
-	"version": "1.2.0",
-	"description": "Basic Tailwind Playground",
-	"main": "index.js",
-	"scripts": {
-		"build": "postcss css/tailwind.css -o public/build/style.css"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/skrantzman/Basic-Tailwind-Playground.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/skrantzman/Basic-Tailwind-Playground/issues"
-	},
-	"homepage": "https://github.com/skrantzman/Basic-Tailwind-Playground#readme",
-	"dependencies": {
-		"autoprefixer": "^10.2.4",
-		"postcss-cli": "^8.3.1",
-		"tailwindcss": "^2.0.3"
-	}
+  "name": "pom-chi",
+  "version": "1.1.0",
+  "description": "An HTML starter using TailwindCSS.",
+  "main": "/public/index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./assets/css/tailwind.css --jit -o ./public/build/style.css",
+    "prod": "TAILWIND_MODE=build npx tailwindcss -i ./assets/css/tailwind.css --jit -o ./public/build/style.css --minify",
+    "watch": "npx tailwindcss -i assets/css/tailwind.css -o ./public/build/style.css --watch",
+    "serve": "concurrently \"npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css -w\"  \"live-server public --no-css-inject\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leroyrosales/pom-chi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leroyrosales/pom-chi/issues"
+  },
+  "homepage": "https://github.com/leroyrosales/pom-chi#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.8",
+    "tailwindcss": "^2.2.7",
+    "watch": "^0.13.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.1",
+    "live-server": "^1.1.0"
+  }
 }
