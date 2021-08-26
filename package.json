@@ -1,5 +1,5 @@
 {
-  "name": "BTSP",
+  "name": "btsp",
   "version": "1.1.0",
   "description": "A TailwindCSS v2.2.7 starter package based on Pom-Chi.",
   "main": "/public/index.html",
