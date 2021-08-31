@@ -11,28 +11,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leroyrosales/pom-chi.git"
+    "url": "git+https://github.com/skrantzman/Basic-Tailwind-Playground.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leroyrosales/pom-chi/issues"
+    "url": "https://github.com/skrantzman/Basic-Tailwind-Playground.git"
   },
-  "homepage": "https://github.com/leroyrosales/pom-chi#readme",
+  "homepage": "https://github.com/skrantzman/Basic-Tailwind-Playground#readme",
   "dependencies": {
-    "autoprefixer": "^10.3.3",
-    "cssnano": "^5.0.8",
-    "npm-force-resolutions": "^0.0.10",
-    "tailwindcss": "^2.2.7",
-    "watch": "^0.13.0"
+    "tailwindcss-cli": "^0.1.2"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
-    "live-server": "^1.2.0"
+    "cross-env": "^7.0.3",
+    "live-server": "^1.2.1"
   },
   "resolutions": {
     "chokidar": "3.5.2",
-    "merge": "2.1.1"
+    "merge": "2.1.1",
+    "glob-parent": "6.0.1"
   }
 }
