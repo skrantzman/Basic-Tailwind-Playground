@@ -5,7 +5,8 @@
   "main": "/public/index.html",
   "scripts": {
     "build": "npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css --watch",
-    "prod": "npx tailwindcss -i ./assets/css/tailwind.css --jit -o ./public/build/style.css --minify",
+    "prod": "npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css --minify",
+    "watch": "npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css --watch",
     "serve": "concurrently \"npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css -w\"  \"live-server public --no-css-inject\""
   },
   "repository": {
