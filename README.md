@@ -2,7 +2,7 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/skrantzman/Basic-Tailwind-Playground/tailwindcss?color=38B2AC&logo=tailwind-css) &ensp;
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/skrantzman/dnn_tailwind?logo=Snyk)
 
-# Basic-Tailwind-Playground
+# Basic-Tailwind-Playground v3.1.8
 
 Basic Tailwind Playground, that saves a few minutes of having to configure package.json, postcss.config.js, and tailwind.config.js files, so you can be up and running quickly. Nothing special here other than that.
 
