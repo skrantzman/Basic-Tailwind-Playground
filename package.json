@@ -1,12 +1,11 @@
 {
   "name": "btsp",
-  "version": "1.1.0",
-  "description": "A TailwindCSS v2.2.7 starter package based on Pom-Chi.",
+  "version": "1.2.0",
+  "description": "A TailwindCSS v3.1.8 starter package based on Pom-Chi.",
   "main": "/public/index.html",
   "scripts": {
-    "build": "npx tailwindcss -i ./assets/css/tailwind.css --jit -o ./public/build/style.css",
-    "prod": "TAILWIND_MODE=build npx tailwindcss -i ./assets/css/tailwind.css --jit -o ./public/build/style.css --minify",
-    "watch": "npx tailwindcss -i assets/css/tailwind.css -o ./public/build/style.css --watch",
+    "build": "npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css --watch",
+    "prod": "npx tailwindcss -i ./assets/css/tailwind.css --jit -o ./public/build/style.css --minify",
     "serve": "concurrently \"npx tailwindcss -i ./assets/css/tailwind.css -o ./public/build/style.css -w\"  \"live-server public --no-css-inject\""
   },
   "repository": {
@@ -21,16 +20,16 @@
   },
   "homepage": "https://github.com/skrantzman/Basic-Tailwind-Playground#readme",
   "dependencies": {
-    "tailwindcss-cli": "^0.1.2"
+    "tailwindcss": "^3.1.8"
   },
   "devDependencies": {
-    "concurrently": "^6.2.1",
+    "concurrently": "^7.3.0",
     "cross-env": "^7.0.3",
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.2"
   },
   "resolutions": {
-    "chokidar": "3.5.2",
-    "merge": "2.1.1",
-    "glob-parent": "6.0.1"
+    "chokidar": "3.5.3",
+    "glob-parent": "6.0.2",
+    "merge": "2.1.1"
   }
 }
